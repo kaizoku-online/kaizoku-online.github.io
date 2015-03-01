@@ -80,7 +80,7 @@ angular.module('kaizokuOnline', ['ngCookies', 'ui.router', 'angular-jwt'])
                 .state('user.profile', {
                     abstract: true,
                     url: '/profile/',
-                    templateUrl: '/views/user/_layout.html'
+                    templateUrl: '/views/user/layout.html'
                 })
                 .state('user.profile.home', {
                     url: '',
