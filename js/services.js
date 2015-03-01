@@ -18,7 +18,7 @@ angular.module('kaizokuOnline')
 
         var login = function(user, provider, success, error) {
             if (provider == 'local') {
-                $http().post(config.server.url + '/auth/' + provider, user).success(function(data) {
+                $http.post(config.server.url + '/auth/' + provider, user).success(function(data) {
                     localStorage.setItem('id_token', data.token);
                     var tokenPayload = jwtHelper.decodeToken(data.token);
                     var user = tokenPayload.user;
