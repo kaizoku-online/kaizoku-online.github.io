@@ -1,0 +1,13 @@
+$background-color: #202532;
+$header: $background-color;
+$color-green: #0f6d1c;
+$color-yellow: #dabd1e;
+$input: #5e5f61;
+$input-darker: darken($input, 30%);
+$color-white: #fff;
+$color-black: #000;
+$color-gray: #9ea0a1;
+$color-content: lighten($color-gray, 30%);
+$content-border: #24272f;
+$content-font-color: #616c7e;
+$footer-color: darken($background-color, 3%);

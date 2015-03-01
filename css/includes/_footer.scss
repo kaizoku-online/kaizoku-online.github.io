@@ -1,0 +1,12 @@
+footer{
+	color: $content-font-color;
+	padding: 60px 0;
+	overflow: hidden;
+	clear: both;
+	z-index: 1;
+	position: relative;
+	border-top: solid 2px $content-border;
+	background: $footer-color;
+	text-align: center;
+	flex: none;
+}

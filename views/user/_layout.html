@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="row">
+    <div class="">
+      <div data-ng-controller="NavController" class="list-group">
+        <div class="list-group-item"><strong>Nested menu</strong></div><a href="#/profile" active-nav="active-nav" class="list-group-item">Nested view</a><a href="#/profile/nested" active-nav="active-nav" class="list-group-item">Another nested view</a><a href="#/profile/admin" active-nav="active-nav" data-access-level="accessLevels.admin" class="list-group-item">A nested admin view</a>
+      </div>
+    </div>
+    <div data-ui-view></div>
+  </div>
+</div>

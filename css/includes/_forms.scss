@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+::-webkit-input-placeholder { /* WebKit browsers */
+	color: $input-darker;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: $input-darker;
+
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: $input-darker;
+
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+	color: $input-darker;
+
+}
+
+
+
+*{
+	&:focus{
+		outline: none !important;
+		font-family: 'Lato', sans-serif;
+	}
+
+	-webkit-font-smoothing: antialiased;
+}
+
+nav{
+	margin: 0 !important;
+}
+
+input{
+	border: none;
+}
+
+.green{
+	color: lighten($color-green, 20%);
+}
